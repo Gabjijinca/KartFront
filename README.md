@@ -1,12 +1,40 @@
-# React + Vite
+Frontend - Kartódromo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto representa a interface web para gerenciamento de pilotos e campeonatos de kart, permitindo o cadastro, listagem, atualização e exclusão de registros, além da visualização de vitórias e participações de pilotos.
 
-Currently, two official plugins are available:
+Tecnologias utilizadas
+ReactJS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+JavaScript (ES6+)
 
-## Expanding the ESLint configuration
+CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Fetch API para requisições HTTP
+
+Vite para build e desenvolvimento local
+
+Funcionalidades
+Cadastro, listagem, edição e exclusão de pilotos
+
+Cadastro, listagem, edição e exclusão de campeonatos
+
+Associação de pilotos aos pódios (1º, 2º, 3º lugares)
+
+Exibição de vitórias e participações por piloto
+
+Renderização dinâmica com React Hooks (useState, useEffect)
+
+Formulários com validação básica e mensagens de erro
+
+Modais para edição de pilotos e campeonatos
+
+Estrutura das telas
+Formulário de cadastro de piloto
+
+Tabela de pilotos cadastrados
+
+Formulário de cadastro de campeonato (com IDs dos pilotos)
+
+Tabela de campeonatos realizados
+
+Tabela com estatísticas de vitórias e participações por piloto
